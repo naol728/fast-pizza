@@ -1,3 +1,4 @@
+import React from 'react'
 function OrderItem({ item, isLoadingIngredients, ingredients }) {
   const { quantity, name, totalPrice } = item;
 

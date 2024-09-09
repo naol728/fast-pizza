@@ -8,11 +8,11 @@ export default function AppLayout() {
    const isloading=navigation.state==="loading"
 
   return (
-    <div className='layout'>
+    <div className='grid h-screen grid-rows-[auto_1fr_auto]'>
         { isloading && <Loader />}
      <Header/>
 
-     <main>
+     <main >
         <Outlet />
      </main>
 

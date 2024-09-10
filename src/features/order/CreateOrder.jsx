@@ -60,12 +60,15 @@ function CreateOrder() {
         <div>
           <label>Address</label>
           <div>
-            <input type="text" name="address" required />
+            <input 
+            className="w-full rounded-full border border-stone-200 px-4 py-2 text-sm transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-yellow-400 md:px-6 md:py-3"
+            type="text" name="address" required  />
           </div>
         </div>
 
         <div>
           <input
+          className=" h-6 w-6 accent-yellow-400 focus:outline-none focus:ring focus:ring-yellow-400 focus:outline-offset-2"
             type="checkbox"
             name="priority"
             id="priority"
@@ -76,7 +79,7 @@ function CreateOrder() {
         </div>
 
         <div>
-          <button disabled={isloading}>{isloading ? "ordering the order":" Order now"}</button>
+          <button disabled={isloading} className="inline-block rounded-full bg-yellow-400  px-4 py-3 font-semibold uppercase tracking-wide text-stone-800 transition-all duration-300  hover:bg-yellow-300 focus:bg-yellow-300  focus:outline-none focus:ring focus:ring-offset-2 focus:ring-yellow-300 disabled:cursor-not-allowed">{isloading ? "ordering the order":" Order now"}</button>
         </div>
       </Form>
     </div>

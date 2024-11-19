@@ -7,6 +7,7 @@ import Cart from './features/cart/Cart'
 import CreatOrder,{actions as CreateOrderAction} from './features/order/CreateOrder'
 import Order,{loader as orderLoader} from './features/order/Order'
 import AppLayout from './ui/AppLayout'
+
 const router =createBrowserRouter([
 
   {
@@ -42,6 +43,5 @@ const router =createBrowserRouter([
 ]);
 
 export default function App() {
-  const x=4;
   return <RouterProvider router={router} />
 }

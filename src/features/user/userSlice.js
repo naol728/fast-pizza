@@ -25,7 +25,7 @@ const initialState={
   username:"",
 }
 
-const userReducer=createSlice({
+const userSlice=createSlice({
   name:"user",
   initialState,
   reducers:{
@@ -36,4 +36,4 @@ const userReducer=createSlice({
 })
 export const {updateName}=userSlice.actions
 
-export default userReducer.reducer;
+export default userSlice.reducer;

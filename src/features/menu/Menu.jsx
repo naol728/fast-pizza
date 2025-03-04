@@ -10,6 +10,7 @@ function Menu() {
   {menu.map((pizza)=><Menuitem pizza={pizza} key={pizza.id} />)}
   </ul>;
 }
+
 export async function loader(){
   const menu=await getMenu()
   return menu;

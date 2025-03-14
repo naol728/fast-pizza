@@ -13,6 +13,7 @@ const cartSlice=createSlice({
         },
         deleteItem(state,action){
             //payload=itemid
+            console.log("hello")
             state.cart=state.cart.filter(item=>item.pizzaID!== action.payload)
         },
         IncearseItemQuantity(state,action){

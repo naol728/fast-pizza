@@ -1,14 +1,17 @@
 import React from 'react'
 import { formatCurrency } from '../../utils/helpers';
 import Button from '../../ui/Button';
-import { useDispatch } from 'react-redux';
-import { addItem } from '../cart/cartSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { addItem, getCurrentQuantityById } from '../cart/cartSlice';
+import DeleteItem from '../cart/DeleteItem';
 function MenuItem({ pizza }) {
 const dispach=useDispatch()
-  const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
+  const { pizzaId, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
+  const currentQuantity=useSelector(getCurrentQuantityById(pizzaId))
+  const incart=currentQuantity >0
 function handleAddtocart(){
  const newItem={
-  pizzaID:id,
+  pizzaId:pizzaId,
   name,
   quantity:1,
   unitPrice,
@@ -17,6 +20,7 @@ function handleAddtocart(){
 }
 dispach(addItem(newItem))
 }
+
   return (
     <li className='flex gap-4 py-2'>
       <img className={`max-h-24 ${soldOut ?"opacity-70 grayscale":""}`} src={imageUrl} alt={name} />
@@ -25,7 +29,9 @@ dispach(addItem(newItem))
         <p className='capitalize text-sm text-stone-500 italic'>{ingredients.join(', ')}</p>
         <div className='mt-auto flex items-center justify-between'>
           {!soldOut ? <p className='text-sm'>{formatCurrency(unitPrice)}</p> : <p className='text-sm font-medium text-stone-500 uppercase'>Sold out</p>}
-          {!soldOut && <Button type="small" onclick={handleAddtocart} >Add to Cart</Button>}
+
+        { incart  && <DeleteItem pizzaId={pizzaId}/>}
+          {!soldOut && !incart && <Button type="small" onclick={handleAddtocart} >Add to Cart</Button>}
         </div>
 
       </div>

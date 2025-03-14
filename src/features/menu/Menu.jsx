@@ -4,10 +4,9 @@ import { useLoaderData } from 'react-router-dom';
 import Menuitem from './MenuItem'
 function Menu() {
  const menu= useLoaderData()
- console.log(menu)
 
   return <ul className='divide-y-2 pl-2'>
-  {menu.map((pizza)=><Menuitem pizza={pizza} key={pizza.id} />)}
+  {menu.map((pizza)=><Menuitem pizza={pizza} key={pizza.pizzaId} />)}
   </ul>;
 }
 

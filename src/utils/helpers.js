@@ -6,13 +6,24 @@ export function formatCurrency(value) {
 }
 
 export function formatDate(dateStr) {
+  if (!dateStr) return "Invalid date"; // Handle undefined/null cases
+
+  const date = new Date(dateStr);
+  if (isNaN(date.getTime())) return "Invalid date"; // Handle invalid date formats
+
   return new Intl.DateTimeFormat("en", {
     day: "numeric",
     month: "short",
+    year: "numeric",
     hour: "2-digit",
     minute: "2-digit",
-  }).format(new Date(dateStr));
+    hour12: false, // Change to true for AM/PM format
+    timeZone: "UTC",
+  }).format(date);
 }
+
+
+
 
 export function calcMinutesLeft(dateStr) {
   const d1 = new Date().getTime();

@@ -8,6 +8,8 @@ import {
 import { getOrder } from '../../services/apiRestaurant';
 import { useLoaderData } from 'react-router-dom';
 import OrderItem from './OrderItem';
+import { useSelector } from 'react-redux';
+import { getTotalCartPrice } from '../cart/cartSlice';
 
 
 function Order() {
@@ -25,7 +27,10 @@ function Order() {
   } = order;
 
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
- 
+const totalPrice=useSelector(getTotalCartPrice)
+
+const total=priority==="true" ? totalPrice*0.2:totalPrice;
+
   return (
     <div className="space-y-8 px-4 py-6">
       <div className="flex flex-wrap items-center justify-between gap-2">
@@ -56,21 +61,21 @@ function Order() {
 
       <ul className="dive-stone-200 divide-y border-b border-t">
         {cart.map((item) => (
-          <OrderItem item={item} key={item.id} />
+          <OrderItem item={item} key={item.pizzaId} />
         ))}
       </ul>
 
       <div className="space-y-2 bg-stone-200 px-6 py-5">
         <p className="text-sm font-medium text-stone-600">
-          Price pizza: {formatCurrency(orderPrice)}
+          Price pizza: {formatCurrency(totalPrice)}
         </p>
         {priority && (
           <p className="text-sm font-medium text-stone-600">
-            Price priority: {formatCurrency(priorityPrice)}
+            Price priority: {formatCurrency(total*0.2)}
           </p>
         )}
         <p className="font-bold">
-          To pay on delivery: {formatCurrency(orderPrice + priorityPrice)}
+          To pay on delivery: {formatCurrency(total)}
         </p>
       </div>
     </div>

@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://pizzas-backend-1-elqu.onrender.com/api';
 
 export async function getMenu() {
   const res = await fetch(`${API_URL}/menu`);

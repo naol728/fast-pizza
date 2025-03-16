@@ -26,23 +26,23 @@
 
 ### 1,HOME page
 
-![home page](https://github.com/naol728/fast-react-pizza/blob/main/images/home.png](https://github.com/naol728/fast-react-pizza/blob/main/images/home.png?raw=true))
+![home page](https://github.com/naol728/fast-react-pizza/blob/main/images/home.png?raw=true)
 
 ### 2. MENU Page
 
-![menu page](https://github.com/naol728/fast-react-pizza/blob/main/images/Screenshot%202025-03-16%20193442.png](https://github.com/naol728/fast-react-pizza/blob/main/images/Screenshot%202025-03-16%20193442.png?raw=true))
+![menu page](https://github.com/naol728/fast-react-pizza/blob/main/images/Screenshot%202025-03-16%20193442.png?raw=true)
 
 ### 3. CART Page
 
-![cart page](https://github.com/naol728/fast-react-pizza/blob/main/images/cart.png](https://github.com/naol728/fast-react-pizza/blob/main/images/cart.png?raw=true))
+![cart page](https://github.com/naol728/fast-react-pizza/blob/main/images/cart.png?raw=true)
 
 ### 4. ORDER Page
 
-![order page](https://github.com/naol728/fast-react-pizza/blob/main/images/form.png](https://github.com/naol728/fast-react-pizza/blob/main/images/form.png?raw=true))
+![order page](https://github.com/naol728/fast-react-pizza/blob/main/images/form.png?raw=true)
 
 ### 5. ORDER TRACK Page
 
-![order track page](https://github.com/naol728/fast-react-pizza/blob/main/images/ordertrack.png](https://github.com/naol728/fast-react-pizza/blob/main/images/ordertrack.png?raw=true))
+![order track page](https://github.com/naol728/fast-react-pizza/blob/main/images/ordertrack.png?raw=true)
 
 
 ## ⚙️ Installation

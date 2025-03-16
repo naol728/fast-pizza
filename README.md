@@ -26,23 +26,23 @@
 
 ### 1,HOME page
 
-![home page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20194906.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/home.png)
+![home page](https://github.com/naol728/fast-react-pizza/blob/main/images/home.png](https://github.com/naol728/fast-react-pizza/blob/main/images/home.png?raw=true))
 
 ### 2. MENU Page
 
-![menu page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195132.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/Screenshot%202025-03-16%20193442.png)
+![menu page](https://github.com/naol728/fast-react-pizza/blob/main/images/Screenshot%202025-03-16%20193442.png](https://github.com/naol728/fast-react-pizza/blob/main/images/Screenshot%202025-03-16%20193442.png?raw=true))
 
 ### 3. CART Page
 
-![cart page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195209.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/cart.png)
+![cart page](https://github.com/naol728/fast-react-pizza/blob/main/images/cart.png](https://github.com/naol728/fast-react-pizza/blob/main/images/cart.png?raw=true))
 
 ### 4. ORDER Page
 
-![order page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195250.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/form.png)
+![order page](https://github.com/naol728/fast-react-pizza/blob/main/images/form.png](https://github.com/naol728/fast-react-pizza/blob/main/images/form.png?raw=true))
 
 ### 5. ORDER TRACK Page
 
-![order track page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195404.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/ordertrack.png)
+![order track page](https://github.com/naol728/fast-react-pizza/blob/main/images/ordertrack.png](https://github.com/naol728/fast-react-pizza/blob/main/images/ordertrack.png?raw=true))
 
 
 ## ⚙️ Installation

@@ -1,4 +1,4 @@
-# Fast Pizza 
+# Fast Pizza 🍕
 
 **Fast Pizza** is an innovative music recommendation app that curates playlists based on your mood. Powered by AI and real-time analytics, MoodMix helps you discover the perfect soundtrack for any moment.
 

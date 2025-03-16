@@ -1,4 +1,4 @@
-# MoodMix 🎵
+# Fast Pizza 🎵
 
 **Fast Pizza** is an innovative music recommendation app that curates playlists based on your mood. Powered by AI and real-time analytics, MoodMix helps you discover the perfect soundtrack for any moment.
 
@@ -26,23 +26,23 @@
 
 ### 1,HOME page
 
-![home page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20194906.png?raw=true)
+![home page]([https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20194906.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/home.png))
 
 ### 2. MENU Page
 
-![menu page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195132.png?raw=true)
+![menu page]([https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195132.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/Screenshot%202025-03-16%20193442.png))
 
 ### 3. CART Page
 
-![cart page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195209.png?raw=true)
+![cart page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195209.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/cart.png))
 
 ### 4. ORDER Page
 
-![order page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195250.png?raw=true)
+![order page]([https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195250.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/form.png))
 
 ### 5. ORDER TRACK Page
 
-![order track page](https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195404.png?raw=true)
+![order track page]([https://github.com/naol728/moodmix/blob/ff5dd34264ce3edb6ea2c6f7adf7fc92e649cf6e/images/Screenshot%202025-01-09%20195404.png?raw=true](https://github.com/naol728/fast-react-pizza/blob/main/images/ordertrack.png))
 
 
 ## ⚙️ Installation
@@ -56,6 +56,6 @@
    ```
 
 ```bash
-npm start
+npm run dev
 
 ```
